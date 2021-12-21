@@ -14,7 +14,7 @@ int main(int argc, char *argv[]) {
     parser.addHelpOption();
     parser.addVersionOption();
 
-    parser.addPositionalArgument("server address", "The address to the ytd server");
+    parser.addPositionalArgument("serverAddress", "The address to the ytd server");
     parser.addPositionalArgument("port", "The port used by the ytd server");
     parser.addPositionalArgument("request", "The type of request to send to the server");
     parser.addPositionalArgument("argument", "The argument for the request if needed");
